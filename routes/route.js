@@ -4,7 +4,7 @@ const controller = require('../controller/controller')
 
 
 routes.get('/',(req,res) => {
-    resizeBy.send("welcome to expense-api")
+    res.send("welcome to expense-api")
 })
 
 // Category  Routes
